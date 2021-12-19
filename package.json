@@ -1,0 +1,49 @@
+{
+  "name": "olympus-contracts",
+  "version": "1.0.0",
+  "description": "Smart Contracts for Olympus",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^2.1.7",
+    "@openzeppelin/contracts": "^3.4.0",
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/test-helpers": "^0.5.12",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.1",
+    "hardhat": "^2.5.0",
+    "prettier": "^2.3.2",
+    "prettier-plugin-solidity": "^1.0.0-beta.17",
+    "solhint": "^3.3.6",
+    "solhint-plugin-prettier": "0.0.5"
+  },
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "clean": "npx hardhat clean",
+    "start": "npx hardhat run scripts/deployAll.js",
+    "deploy_fantomtest": "npx hardhat run --network fantomtestnet scripts/deploy_local.js",
+    "deploy": "npx hardhat run --network fantom scripts/deploy_local.js",
+    "deploy_local": "npx hardhat run --network localhost scripts/deploy_local.js",
+    "deploy_env": "npx hardhat run --network localhost scripts/deploy_env.js",
+    "deploy_icicbtest": "npx hardhat run --network ICICBtest scripts/deploy_local.js",
+    "deploy_ganache": "npx hardhat run --network ganache scripts/deploy_local.js",
+    "lint:sol": "solhint -f table contracts/**/*.sol"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlympusDAO/olympus-contracts.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/OlympusDAO/olympus-contracts/issues"
+  },
+  "homepage": "https://github.com/OlympusDAO/olympus-contracts#readme"
+}

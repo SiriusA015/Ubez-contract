@@ -1,0 +1,63 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"görli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220cca45e1bb51b405724fae2832196f81adda6aab77faf7e32b4af8433c20df44e64736f6c63430007050033",
+			"opcodes": "PUSH1 0x56 PUSH1 0x23 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x16 JUMPI INVALID JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xCC LOG4 0x5E SHL 0xB5 SHL BLOCKHASH JUMPI 0x24 STATICCALL 0xE2 DUP4 0x21 SWAP7 0xF8 BYTE 0xDD 0xA6 0xAA 0xB7 PUSH32 0xAF7E32B4AF8433C20DF44E64736F6C6343000705003300000000000000000000 ",
+			"sourceMap": "18664:1430:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220cca45e1bb51b405724fae2832196f81adda6aab77faf7e32b4af8433c20df44e64736f6c63430007050033",
+			"opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xCC LOG4 0x5E SHL 0xB5 SHL BLOCKHASH JUMPI 0x24 STATICCALL 0xE2 DUP4 0x21 SWAP7 0xF8 BYTE 0xDD 0xA6 0xAA 0xB7 PUSH32 0xAF7E32B4AF8433C20DF44E64736F6C6343000705003300000000000000000000 ",
+			"sourceMap": "18664:1430:0:-:0;;;;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "17200",
+				"executionCost": "97",
+				"totalCost": "17297"
+			},
+			"internal": {
+				"decode(struct FixedPoint.uq112x112 memory)": "infinite",
+				"decode112with18(struct FixedPoint.uq112x112 memory)": "infinite",
+				"fraction(uint256,uint256)": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

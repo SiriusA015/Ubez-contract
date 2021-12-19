@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.7.5+commit.eb77ed08"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_recipient",
+						"type": "address"
+					}
+				],
+				"name": "stake",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"BondDepository.sol": "IStakingHelper"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"BondDepository.sol": {
+			"keccak256": "0x76c1fdadea249064b7fc8a69ac3874be4b2a8db7cea67c25a15dda3b2787bfd2",
+			"license": "AGPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://bd2e63e948ef57202b32c44325691f85a96c9f2de41ee49534d8288a7f26ac68",
+				"dweb:/ipfs/QmTPj5XU5xhjVjBBYfQtDb4Tqzuqh6ijWpxhqz4HRkjf2X"
+			]
+		}
+	},
+	"version": 1
+}
